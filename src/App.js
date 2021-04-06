@@ -1,22 +1,15 @@
+//bir profil sayfasi olusturulmasi isteniyor odevimizde.
 import logo from './logo.svg';
 import './App.css';
+
+import Profile from "./component/profile"//istenen sayfayi olusturacak foksiyonu import ettik
+//asagida uygun yere yerlestiriyoruz App icerisine
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <Profile/>    
       </header>
     </div>
   );
